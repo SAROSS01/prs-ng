@@ -1,0 +1,43 @@
+nav {
+    position: fixed;
+    top: 0;
+    width:100%;
+    background-color: #454545;
+    padding: 12px 0;
+    z-index: 1;
+
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    display: inline-block;
+    text-align:center;
+}
+a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: Tahoma;
+}
+
+a:hover {
+    background-color: black;
+}
+
+body { 
+    padding-top: 70px; 
+    
+}
+
+.logout{
+    float: right;
+    text-decoration: none;
+    font-family: Tahoma;
+    margin-top: -7px;
+}
+
+.logout:hover {
+    background-color: black;
+}
